@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Piano
-Mon Apr 14 15:53:54 2025
+Mon Apr 21 13:33:15 2025
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -38,7 +38,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                              ;
 +-----------------------------+---------------------------------------------+
-; Analysis & Synthesis Status ; Failed - Mon Apr 14 15:53:54 2025           ;
+; Analysis & Synthesis Status ; Failed - Mon Apr 21 13:33:15 2025           ;
 ; Quartus Prime Version       ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name               ; Piano                                       ;
 ; Top-level Entity Name       ; Piano                                       ;
@@ -133,13 +133,13 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                    ;
-+----------------------------------+-----------------+------------------------------------+-------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                          ; Library ;
-+----------------------------------+-----------------+------------------------------------+-------------------------------------------------------+---------+
-; Piano.bdf                        ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Crist/Desktop/cristian_piano/Piano/Piano.bdf ;         ;
-+----------------------------------+-----------------+------------------------------------+-------------------------------------------------------+---------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                       ;
++----------------------------------+-----------------+------------------------------------+----------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                             ; Library ;
++----------------------------------+-----------------+------------------------------------+----------------------------------------------------------+---------+
+; Piano.bdf                        ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Cristian/Desktop/cristian_piano/Piano/Piano.bdf ;         ;
++----------------------------------+-----------------+------------------------------------+----------------------------------------------------------+---------+
 
 
 +-------------------------------+
@@ -148,48 +148,48 @@ https://fpgasoftware.intel.com/eula.
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Mon Apr 14 15:53:46 2025
+    Info: Processing started: Mon Apr 21 13:33:03 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Piano -c Piano
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file do.vhd
-    Info (12022): Found design unit 1: divisor_do-Behavioral File: C:/Users/Crist/Desktop/cristian_piano/Piano/DO.vhd Line: 11
-    Info (12023): Found entity 1: divisor_do File: C:/Users/Crist/Desktop/cristian_piano/Piano/DO.vhd Line: 5
+    Info (12022): Found design unit 1: divisor_do-Behavioral File: C:/Users/Cristian/Desktop/cristian_piano/Piano/DO.vhd Line: 11
+    Info (12023): Found entity 1: divisor_do File: C:/Users/Cristian/Desktop/cristian_piano/Piano/DO.vhd Line: 5
 Info (12021): Found 1 design units, including 1 entities, in source file piano.bdf
     Info (12023): Found entity 1: Piano
 Info (12021): Found 2 design units, including 1 entities, in source file re.vhd
-    Info (12022): Found design unit 1: divisor_re-Behavioral File: C:/Users/Crist/Desktop/cristian_piano/Piano/RE.vhd Line: 11
-    Info (12023): Found entity 1: divisor_re File: C:/Users/Crist/Desktop/cristian_piano/Piano/RE.vhd Line: 5
+    Info (12022): Found design unit 1: divisor_re-Behavioral File: C:/Users/Cristian/Desktop/cristian_piano/Piano/RE.vhd Line: 11
+    Info (12023): Found entity 1: divisor_re File: C:/Users/Cristian/Desktop/cristian_piano/Piano/RE.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file mi.vhd
-    Info (12022): Found design unit 1: divisor_mi-Behavioral File: C:/Users/Crist/Desktop/cristian_piano/Piano/MI.vhd Line: 11
-    Info (12023): Found entity 1: divisor_mi File: C:/Users/Crist/Desktop/cristian_piano/Piano/MI.vhd Line: 5
+    Info (12022): Found design unit 1: divisor_mi-Behavioral File: C:/Users/Cristian/Desktop/cristian_piano/Piano/MI.vhd Line: 11
+    Info (12023): Found entity 1: divisor_mi File: C:/Users/Cristian/Desktop/cristian_piano/Piano/MI.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file fa.vhd
-    Info (12022): Found design unit 1: divisor_fa-Behavioral File: C:/Users/Crist/Desktop/cristian_piano/Piano/FA.vhd Line: 11
-    Info (12023): Found entity 1: divisor_fa File: C:/Users/Crist/Desktop/cristian_piano/Piano/FA.vhd Line: 5
+    Info (12022): Found design unit 1: divisor_fa-Behavioral File: C:/Users/Cristian/Desktop/cristian_piano/Piano/FA.vhd Line: 11
+    Info (12023): Found entity 1: divisor_fa File: C:/Users/Cristian/Desktop/cristian_piano/Piano/FA.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file sol.vhd
-    Info (12022): Found design unit 1: divisor_sol-Behavioral File: C:/Users/Crist/Desktop/cristian_piano/Piano/SOL.vhd Line: 11
-    Info (12023): Found entity 1: divisor_sol File: C:/Users/Crist/Desktop/cristian_piano/Piano/SOL.vhd Line: 5
+    Info (12022): Found design unit 1: divisor_sol-Behavioral File: C:/Users/Cristian/Desktop/cristian_piano/Piano/SOL.vhd Line: 11
+    Info (12023): Found entity 1: divisor_sol File: C:/Users/Cristian/Desktop/cristian_piano/Piano/SOL.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file la.vhd
-    Info (12022): Found design unit 1: divisor_la-Behavioral File: C:/Users/Crist/Desktop/cristian_piano/Piano/LA.vhd Line: 11
-    Info (12023): Found entity 1: divisor_la File: C:/Users/Crist/Desktop/cristian_piano/Piano/LA.vhd Line: 5
+    Info (12022): Found design unit 1: divisor_la-Behavioral File: C:/Users/Cristian/Desktop/cristian_piano/Piano/LA.vhd Line: 11
+    Info (12023): Found entity 1: divisor_la File: C:/Users/Cristian/Desktop/cristian_piano/Piano/LA.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file si.vhd
-    Info (12022): Found design unit 1: divisor_si-Behavioral File: C:/Users/Crist/Desktop/cristian_piano/Piano/SI.vhd Line: 11
-    Info (12023): Found entity 1: divisor_si File: C:/Users/Crist/Desktop/cristian_piano/Piano/SI.vhd Line: 5
+    Info (12022): Found design unit 1: divisor_si-Behavioral File: C:/Users/Cristian/Desktop/cristian_piano/Piano/SI.vhd Line: 11
+    Info (12023): Found entity 1: divisor_si File: C:/Users/Cristian/Desktop/cristian_piano/Piano/SI.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file doagudo.vhd
-    Info (12022): Found design unit 1: divisor_do_agudo-Behavioral File: C:/Users/Crist/Desktop/cristian_piano/Piano/DOagudo.vhd Line: 11
-    Info (12023): Found entity 1: divisor_do_agudo File: C:/Users/Crist/Desktop/cristian_piano/Piano/DOagudo.vhd Line: 5
+    Info (12022): Found design unit 1: divisor_do_agudo-Behavioral File: C:/Users/Cristian/Desktop/cristian_piano/Piano/DOagudo.vhd Line: 11
+    Info (12023): Found entity 1: divisor_do_agudo File: C:/Users/Cristian/Desktop/cristian_piano/Piano/DOagudo.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file mux81.vhd
-    Info (12022): Found design unit 1: mux_8a1_notas-Behavioral File: C:/Users/Crist/Desktop/cristian_piano/Piano/MUX81.vhd Line: 19
-    Info (12023): Found entity 1: mux_8a1_notas File: C:/Users/Crist/Desktop/cristian_piano/Piano/MUX81.vhd Line: 4
+    Info (12022): Found design unit 1: mux_8a1_notas-Behavioral File: C:/Users/Cristian/Desktop/cristian_piano/Piano/MUX81.vhd Line: 19
+    Info (12023): Found entity 1: mux_8a1_notas File: C:/Users/Cristian/Desktop/cristian_piano/Piano/MUX81.vhd Line: 4
 Info (12127): Elaborating entity "Piano" for the top level hierarchy
 Error (275024): Width mismatch in port "sel[2..0]" of instance "inst8" and type mux_8a1_notas -- source is ""pin_name1""
 Error (275024): Width mismatch in port "sel[2..0]" of instance "inst8" and type mux_8a1_notas -- source is ""pin_name2""
 Error (275024): Width mismatch in port "sel[2..0]" of instance "inst8" and type mux_8a1_notas -- source is ""pin_name4""
 Error (12153): Can't elaborate top-level user hierarchy
 Error: Quartus Prime Analysis & Synthesis was unsuccessful. 4 errors, 1 warning
-    Error: Peak virtual memory: 4760 megabytes
-    Error: Processing ended: Mon Apr 14 15:53:54 2025
-    Error: Elapsed time: 00:00:08
-    Error: Total CPU time (on all processors): 00:00:18
+    Error: Peak virtual memory: 4765 megabytes
+    Error: Processing ended: Mon Apr 21 13:33:15 2025
+    Error: Elapsed time: 00:00:12
+    Error: Total CPU time (on all processors): 00:00:13
 
 
